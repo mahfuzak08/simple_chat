@@ -1,7 +1,7 @@
 <?php
 // Connection
 $conn = mysql_connect("localhost", 'root', '');
-$db = mysql_select_db("chat", $conn);
+$db = mysql_select_db("mychat", $conn);
 $json = '';
 if(isset($_GET['rq'])):
 	switch($_GET['rq']):
